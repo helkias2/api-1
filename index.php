@@ -45,3 +45,18 @@
     </div>    
 </body>
 </html>
+<script>
+    window.onload = function(){
+        const URL_TO_FETCH = 'http://127.0.0.1/mesa-projetinhos/matrix/cliente.php'; fetch(URL_TO_FETCH, { 
+            method: 'post' // opcional
+            })
+            .then(function(response) { 
+            response.text()
+            .then(function(result){ 
+                console.log(result); 
+            })
+            })
+            .catch(function(err) { console.error(err); });
+          
+    }
+</script>
