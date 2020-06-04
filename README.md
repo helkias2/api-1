@@ -1,5 +1,5 @@
 # api-1
-Api para comsumo - simples
+Api para comsumo
 
 - Ainda estou aprendendo esse conceito REST.
 
